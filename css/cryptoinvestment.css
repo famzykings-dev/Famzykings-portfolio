@@ -688,7 +688,7 @@ body {
   }
 
   .main-shot{
-    max-width: 22rem !important
+    max-width: 19rem !important
       /* max-width: 100% !important; */
     width: 100%;
     height: 22rem;
@@ -698,7 +698,7 @@ body {
     width: 100%;
     height: 22rem;
     /* max-width: 100% !important; */
-    max-width: 22rem !important;
+    max-width: 19rem !important;
   }
 
   .thumb-scroll{
