@@ -675,8 +675,8 @@ body {
   .page-wrap{
     padding: 15px;
     margin-top: 18rem !important;
-    max-width: 22rem !important
-    /* max-width: 100% !important; */
+    /* max-width: 22rem !important */
+    max-width: 100% !important;
     width: 100%;
   }
 
