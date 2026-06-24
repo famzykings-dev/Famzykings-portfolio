@@ -522,7 +522,7 @@ background: goldenrod !important;
 
     .view-all {
   text-align: center;
-   padding-bottom: 2rem !important;
+   padding-bottom:0 !important;
    padding-top: 2rem;
 }
 }
