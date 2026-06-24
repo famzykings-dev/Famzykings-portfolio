@@ -706,12 +706,14 @@ body {
     max-width: 100% !important;
   }
 
-  .main-shot img{
-    max-width: 100% !important;
-    /* width: 100%; */
-    height: auto;
-    margin-left: 0;
-  }
+.main-shot img {
+  width: 100%;
+  max-width:100% !important;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  
+}
 
   .thumb-row{
     gap: 8px;
