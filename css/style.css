@@ -38,12 +38,12 @@
 
 
 @media(max-width:768px){
-    .navbar-toggler{
+     .navbar-toggler{
         border: none;
         outline: none;
         box-shadow: none !important;
         z-index: 99999;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .navbar-toggler-icon{
@@ -123,7 +123,7 @@
 .overlay{
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.80);
+    background: rgba(0,0,0,0.50);
     z-index: 2;
     height: 59rem !important;
  
