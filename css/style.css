@@ -656,7 +656,7 @@ background:#fff;
 
 
 .service-card{
-    width: 350px;
+    width:100% !important;
     background: black;
     padding: 40px 25px;
     border-radius: 20px;
