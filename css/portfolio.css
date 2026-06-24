@@ -262,13 +262,13 @@ background:#fff;
     font-size: 3rem !important;
     color: white !important;
     position: relative;
-    top: -10rem !important;
+    top: -13rem !important;
 
 }
 .crafted p{
     color: white;
     position: relative;
-    text-align: center;
+    text-align: left;
     display: block;
     line-height: 1.8;
     font-size: 0.8rem;
