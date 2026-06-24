@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     z-index: 99999;
-    height: 4rem;
+    height: 5rem;
     background: transparent;
     transition: 0.4s ease;
 }
@@ -93,9 +93,10 @@
     }
 
       .logo-img{
-      height: 10rem;
+      height: 6rem;
       width: auto;
-      padding-bottom:1rem;
+      /* padding-bottom:1rem; */
+          padding-bottom:0;
       padding-top: 0;
       margin-left: 1rem;
     }
