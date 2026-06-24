@@ -624,7 +624,7 @@ body {
 
   .cta-buttons {
     flex-direction: column;
-    gap: 8px;
+    gap: 15px;
   }
 
   .btn {
