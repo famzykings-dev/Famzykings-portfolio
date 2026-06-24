@@ -43,7 +43,7 @@
         outline: none;
         box-shadow: none !important;
         z-index: 99999;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .navbar-toggler-icon{
@@ -92,14 +92,15 @@
         background: rgba(255,255,255,0.04);
     }
 
-      .logo-img{
+       .logo-img{
       height: 10rem;
       width: auto;
-      padding-bottom:1rem;
+      padding-bottom:3rem;
       padding-top: 0;
       margin-left: 1rem;
     }
 }
+
 
 /* HERO SECTION */
 
