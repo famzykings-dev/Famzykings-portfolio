@@ -640,14 +640,14 @@ body {
     .btn-email {
   background-color: #000;
   color: #fff !important;
-  margin-bottom: 0 important;
+  margin-bottom: 2rem important;
   margin-top: 0 important;
 }
 
 .btn-whatsapp {
   background-color: #25D366;
   color: white !important;
-  margin-bottom: 0 important;
+  margin-bottom: 2rem important;
   margin-top: 0 important;
 }
 }
