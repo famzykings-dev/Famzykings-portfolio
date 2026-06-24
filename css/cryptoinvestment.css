@@ -684,20 +684,20 @@ body {
   }
 
   .main-shot{
-    margin-top: 12rem !important;
+    margin-top: 18rem !important;
     max-width: 25rem !important
     width: 100%;
-    height: 5orem;
+    height: 5rem;
   }
 
   .main-shot img{
     width: 100%;
-    height: 5orem;
+    height: 5rem;
     max-width: 25rem !important;
   }
 
   .thumb-scroll{
-    width: 20rem;
+    width: 25rem;
     gap: 8px;
   }
 
