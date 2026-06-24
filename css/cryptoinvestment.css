@@ -667,67 +667,55 @@ body {
 }
 
 
-@media (max-width: 768px){
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
 
-  .thumb-scroll{
-    display: flex;
-    flex-direction: row !important;
-    gap: 10px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    /* width:100%; */
-    margin-top: 12px;
-    width: 400px;
-    scrollbar-width: thin;
-    scrollbar-color: #ff6b35 #f1f1f1;
-}
-
-  /* .page-wrap{
+  .page-wrap{
     padding: 15px;
-  } */
-
- .page-wrap {
-  width:100%;
-  margin: 0 auto;
-  padding: 20px 20px 20px 20px;
-  background-color: white;
-  padding-top:20rem !important;
-  
-}
+  }
 
   .project-layout{
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-left: 0;
   }
 
   .main-shot{
-    margin-top: 20rem !important;
+    margin-top: 8rem !important;
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  .main-shot img{
+    width: 100%;
+    height: auto;
     max-width: 100% !important;
   }
 
-.main-shot img {
-  width: 100%;
-  max-width:10rem !important;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  
-}
-
-  .thumb-row{
+  .thumb-scroll{
+    width: 100%;
     gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 10px;
   }
-
-  
 
   .thumb{
     width: 90px;
     height: 65px;
     flex-shrink: 0;
+  }
+
+  .sidebar{
+    position: static;
+    padding-top: 0 !important;
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  .info-box{
+    width: 100%;
   }
 
   .project-details h2{
@@ -737,7 +725,6 @@ body {
   .project-details > p{
     width: 100%;
     font-size: 15px;
-    line-height: 1.7;
   }
 
   .features{
@@ -757,36 +744,18 @@ body {
   .cta-button{
     width: 100%;
     text-align: center;
-    padding: 15px;
   }
 
-  .sidebar{
-    position: static;
-    padding-top: 0 !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
+  .project-card{
+    gap: 10px;
   }
-
-  .info-box{
-    width: 100%;
-  }
-
-  .more-projects{
-    width: 100%;
-  }
-
 }
 
-
-/* Small Phones */
-@media (max-width: 480px){
-
-  .page-wrap{
-    padding: 10px;
-  }
+/* Extra small phones */
+@media (max-width: 480px) {
 
   .main-shot{
-    margin-top: 100px !important;
+    margin-top: 6rem !important;
   }
 
   .project-details h2{
@@ -797,50 +766,14 @@ body {
     font-size: 18px;
   }
 
-  .project-details > p{
-    font-size: 14px;
-  }
-
   .thumb{
     width: 80px;
-    height: 55px;
+    height: 60px;
   }
 
-  .feature-col{
-    font-size: 14px;
+  .info-box{
+    padding: 20px;
   }
-
-  .project-card h4{
-    font-size: 14px;
-  }
-
-  .project-card p{
-    font-size: 12px;
-  }
-
-  .back-link{
-    font-size: 0.75rem;
-  }
-
-}
-
-
-/* Extra Small Phones */
-@media (max-width: 360px){
-
-  .project-details h2{
-    font-size: 18px;
-  }
-
-  .project-details > p{
-    font-size: 13px;
-  }
-
-  .thumb{
-    width: 70px;
-    height: 50px;
-  }
-
 }
 
 /* FOOTER SECTION */
