@@ -630,14 +630,8 @@ body {
   .btn {
     width: 200px;
   }
-}
 
-@media (max-width: 480px) {
-  .cta-title {
-    font-size: 2rem;
-  }
-
-    .btn-email {
+        .btn-email {
   background-color: #000;
   color: #fff !important;
   padding-bottom: 5rem important;
@@ -650,6 +644,12 @@ body {
   padding-bottom: 5rem important;
   margin-top: 0 important;
 }
+}
+
+@media (max-width: 480px) {
+  .cta-title {
+    font-size: 2rem;
+  }
 }
 
 /* FOOTER SECTION */
