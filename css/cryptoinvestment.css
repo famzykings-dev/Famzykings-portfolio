@@ -782,7 +782,21 @@ body {
   .info-box{
     padding: 20px;
   }
+
+      .main-shot img{
+    width: 100%;
+    height: 22rem;
+    /* max-width: 100% !important; */
+    max-width: 23rem !important;
+  }
+
+  .thumb-scroll{
+    max-width: 23rem !important;
+    width: 100%;
+    gap: 8px;
+  }
 }
+
 
 /* FOOTER SECTION */
 
