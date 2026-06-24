@@ -608,6 +608,7 @@ body {
 @media (max-width: 768px) {
   .cta-section {
     padding: 80px 20px;
+    height: auto !important;
   }
 
   .cta-title {
