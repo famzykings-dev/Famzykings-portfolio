@@ -259,7 +259,7 @@ background:#fff;
   .tag{
     display: block;
     text-align: center;
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     color: white !important;
     position: relative;
     top: -13rem !important;
@@ -268,11 +268,11 @@ background:#fff;
 .crafted p{
     color: white;
     position: relative;
-    text-align: left;
+    text-align: center;
     display: block;
     line-height: 1.8;
     font-size: 0.8rem;
-    top: -15rem;
+    top: -12rem;
 }
 
   .crafted{
