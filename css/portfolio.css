@@ -518,7 +518,12 @@ background: goldenrod !important;
     margin:auto;
     padding:0 20px;
     padding-top: 12rem;
-    
+}
+
+    .view-all {
+  text-align: center;
+   padding-bottom: 4rem !important;
+   padding-top: 2rem;
 }
 }
 
