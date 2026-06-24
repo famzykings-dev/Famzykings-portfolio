@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#00c853">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion</title>
+  <link rel="icon" type="image/png" href="img/hero kings.jpg">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fashionpage.css">
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+   
+    <!-- START OF NAV BAR SECTION -->
+     <nav id="navigation" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo change.png" alt="Logo" class="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+
+          </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact-me.html">CONTACT</a>
+
+          </li>
+
+      </ul>
+            
+       
+        </ul>
+   
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAV BAR SECTION -->
+
+
+<!--START OF HERO SECTION -->
+<img src="img/hero kings.jpg" alt="Hero Image" class="hero-image">
+
+<div class="overlay"></div>
+
+<div class="content-wrapper">
+
+<div id="particles"></div>
+
+<div class="crafted">
+
+    <span class="tag">Benardfarm Fashion</span>
+
+    <p>
+       Hand-tailored Agbada for grooms, chiefs and gentlemen of culture.
+    </p>
+
+</div>
+
+</div>
+
+<!--START OF FASHION SECTION -->
+  <section class="page-wrap">
+    <div class="project-layout">
+
+        <main class="project-main">
+      <section class="gallery">
+
+      <div class="main-shot">
+        <img id="mainImage"
+            src="img/fashion.png"
+            alt="Main Image"
+            onclick="openImage()">
+       </div>
+
+            <div class="thumb-scroll">
+            <img src="img/fashion.png" class="thumb" onclick="changeImage(this)">
+            <img src="img/fashion3.png" class="thumb" onclick="changeImage(this)">
+            <img src="img/fashion2.png" class="thumb" onclick="changeImage(this)">
+            <img src="img/fashion6.png" class="thumb" onclick="changeImage(this)">
+            <img src="img/fashion7.png" class="thumb" onclick="changeImage(this)">
+            <img src="img/fashion5.png" class="thumb" onclick="changeImage(this)">
+            
+            </div>
+        </section>
+        <br>
+        <section class="project-details">
+          <h2>About This Project</h2>
+          <p> BenardFarms Fashion was founded with a simple vision: to redefine elegance through exceptional craftsmanship, premium fabrics, and timeless designs.
+            Every piece we create reflects confidence, luxury, and individuality. We believe fashion should empower people to express themselves effortlessly.</p>
+
+          <h3>Key Features</h3>
+          <div class="features">
+            <div class="feature-col">
+              <span class="check"></span>
+              <span>Responsive Design</span>
+            </div>
+            <div class="feature-col">
+              <span class="check"></span>
+              <span>Quick Call-To-Action</span>
+            </div>
+          </div>
+
+          <h3>Technologies Used</h3>
+          <div class="tech-pills">
+            <span>HTML</span>
+            <span>Css</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>Laravel</span>
+          </div>
+
+          <a href="contact-me.html" class="cta-button">START A PROJECT LIKE THIS →</a><br><br><br>
+            <a href="portfolio.html" class="back-link">← BACK TO ALL PROJECTS</a>
+
+        </section>
+      </main>
+
+        <div id="lightbox" class="lightbox" onclick="closeImage()">
+      <img id="lightboxImg" src="">
+       </div>
+
+      <aside class="sidebar">
+        <div class="info-box">
+          <h3>PROJECT INFO</h3>
+          <div class="info-line">
+            <span>CATEGORY</span>
+            <strong>Web Development</strong>
+          </div>
+          <div class="info-line">
+            <span>YEAR</span>
+            <strong>2026</strong>
+          </div>
+          <div class="info-line">
+            <span>CLIENT</span>
+            <strong>Benardfarm Fashion</strong>
+          </div>
+          <a href="https://fashion-eight-topaz.vercel.app/" class="live-site-link">View Live Site ↗</a>
+        </div>
+
+        <div class="more-projects">
+          <h3>OTHER PROJECTS</h3>
+          <a href="https://www.kingshairwigs.com/" class="project-card">
+            <div>
+              <h4>Kingshairwig</h4>
+              <p>Web Development</p>
+            </div>
+            <span>↗</span>
+          </a>
+          <a href="https://www.kingnoveryield.com/" class="project-card">
+            <div>
+              <h4>Crypto Investment website</h4>
+              <p>Web Development</p>
+            </div>
+            <span>↗</span>
+          </a>
+          <a href="https://fashion-eight-topaz.vercel.app/index.html" class="project-card">
+            <div>
+              <h4>Fashion Brand</h4>
+              <p>Web Development</p>
+            </div>
+            <span>↗</span>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  </section>
+  <!--START OF FASHION SECTION -->
+
+
+<!--START OF FOOTER SECTION-->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-col">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo change.png" alt="Logo" class="logo-img">
+        </a>
+        <p class="footer-text">
+          Building modern digital experiences and sharing knowledge about tech, software & AI.
+        </p>
+        <h4 class="social-title">Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/2348109529656?text=Hello%20Kingsley,%20I%20visited%20your%20portfolio%20and%20I'm%20interested%20in%20your%20web%20development%20services.%20I'd%20like%20to%20discuss%20my%20project." aria-label="WhatsApp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+            <a href="https://x.com/FamzyKings" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+        <div class="footer-col">
+        <h4 class="footer-heading">OFFICE TIME</h4>
+        <ul class="footer-links">
+          <li>MON - SAT : 9 am - 6 pm</li>
+          <li>SUN : 12 pm - 6 pm</li>
+          <li>Contact Us By</li>
+          <li>-Call: 08109529656</li>
+          <li>-WA : 07010400454</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">SERVICE</h4>
+        <ul class="footer-links">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Subscribe for Updates</h4>
+        <form class="subscribe-form" id="subscribeForm">
+          <input type="email" placeholder="Email Address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Famzykings. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!--END OF FOOTER SECTION-->
+
+
+  <a href="https://wa.me/2348109529656?text=Hello FamzyKings, i want a website for my business" 
+     class="whatsapp-float" 
+     target="_blank" 
+     aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+<script>
+window.addEventListener("scroll", function () {
+    let nav = document.getElementById("navigation");
+
+    if (window.scrollY > 50) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+</script>
+
+
+
+<script>
+const particles = document.getElementById("particles");
+
+for(let i = 0; i < 40; i++){
+    let span = document.createElement("span");
+
+    span.style.left = Math.random() * 100 + "%";
+    span.style.animationDuration = (5 + Math.random() * 10) + "s";
+    span.style.opacity = Math.random();
+
+    particles.appendChild(span);
+}
+</script>
+
+<script>
+function changeImage(el) {
+    document.getElementById("mainImage").src = el.src;
+}
+</script>
+
+<script>
+document.addEventListener("click", function (event) {
+
+    const navbar = document.querySelector(".navbar-collapse");
+    const toggler = document.querySelector(".navbar-toggler");
+
+    if (
+        navbar.classList.contains("show") &&
+        !navbar.contains(event.target) &&
+        !toggler.contains(event.target)
+    ) {
+        bootstrap.Collapse.getInstance(navbar).hide();
+    }
+
+});
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+document.getElementById("subscribeForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    alert("Thank you for subscribing!");
+});
+</script>
+
+<script>
+
+if ("serviceWorker" in navigator) {
+
+  window.addEventListener("load", () => {
+
+    navigator.serviceWorker
+      .register("sw.js")
+
+      .then(reg => {
+        console.log("Service Worker Registered");
+      })
+
+      .catch(err => {
+        console.log("SW Error", err);
+      });
+
+  });
+
+}
+
+</script>
+
+<script>
+function changeImage(element) {
+    document.getElementById("mainImage").src = element.src;
+}
+
+function openImage() {
+    const mainImage = document.getElementById("mainImage");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightboxImg");
+
+    lightboxImg.src = mainImage.src;
+    lightbox.style.display = "flex";
+}
+
+function closeImage() {
+    document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

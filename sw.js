@@ -1,0 +1,100 @@
+const CACHE_NAME = "famzykings-cache-v9";
+
+const urlsToCache = [
+  "/",
+  "/index.html",
+  "/portfolio.html",
+  "/contact-me.html",
+  "/fashion-page.html",
+  "/crypto-investment.html",
+  "/kings-hairwig.html",
+  "/manifest.json",
+
+  // CSS
+  "/css/style.css",
+  "/css/contactme.css",
+  "/css/cryptoinvestment.css",
+  "/css/fashionpage.css",
+  "/css/kingshairwig.css",
+  "/css/portfolio.css",
+  "/css/bootstrap.min.css",
+  "/css/all.min.css",
+
+  // JS
+  "/js/bootstrap.bundle.min.js",
+
+  // Main Images
+  "/img/hero kings.jpg",
+  "/img/kings hero.jpg",
+  "/img/logo change.png",
+  "/img/icon-192.png",
+  "/img/icon-512.png",
+
+  // Project Images
+  "/img/fashion.png",
+  "/img/fashion1.jpg",
+  "/img/kingshair.png",
+  "/img/crypto.png",
+
+  // Tech Icons
+  "/img/tech/html5.svg",
+  "/img/tech/css3.svg",
+  "/img/tech/laravel.svg",
+  "/img/tech/mysql.svg",
+  "/img/tech/bootstrap.svg",
+  "/img/tech/php.svg",
+  "/img/tech/javascript.svg",
+
+  "/img/tech/github.jpg",
+  "/img/tech/bootstrap.jpg",
+  "/img/html.jpg",
+  "/img/js.jpg",
+  "/img/css.jpg",
+  "/img/laravel.jpg",
+  "/img/php.jpg",
+  "/img/mysql.jpg",
+
+];
+
+// INSTALL
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(urlsToCache))
+  );
+
+  self.skipWaiting(); // force new SW immediately
+});
+
+// ACTIVATE (🔥 THIS IS THE IMPORTANT FIX)
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
+          }
+        })
+      );
+    })
+  );
+
+  return self.clients.claim();
+});
+
+// FETCH (NETWORK FIRST — FIXES YOUR ISSUE)
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, clone);
+        });
+        return response;
+      })
+      .catch(() => {
+        return caches.match(event.request);
+      })
+  );
+});
