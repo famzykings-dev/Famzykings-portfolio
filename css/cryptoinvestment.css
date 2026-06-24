@@ -702,7 +702,7 @@ body {
   }
 
   .thumb-scroll{
-    max-width: 19rem !important;
+    max-width: 20rem !important;
     width: 100%;
     gap: 8px;
   }
