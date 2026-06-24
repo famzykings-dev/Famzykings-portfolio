@@ -86,39 +86,39 @@
     <h2>Send a Message</h2>
     <p class="subtext">Fill out the form below and I'll get back to you within 24 hours.</p>
     
-    <form>
-      <form action="https://formsubmit.co/famzykings@gmail.com" method="POST">
+   <form action="https://formsubmit.co/famzykings@gmail.com" method="POST">
 
-    <!-- Disable Captcha -->
-    <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_captcha" value="false">
 
-    <!-- Redirect after submit -->
-    <input type="hidden" name="_next" value="https://famzykingsportfolio.vercel.app/form-submit.html">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="name">YOUR NAME *</label>
-          <input type="text" id="name" placeholder="your name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">YOUR EMAIL *</label>
-          <input type="email" id="email" placeholder="example@email.com" required>
-        </div>
-      </div>
+  <input type="hidden" name="_next" value="https://famzykingsportfolio.vercel.app/form-submit.html">
 
-      <div class="form-group">
-        <label for="subject">SUBJECT *</label>
-        <input type="text" id="subject" placeholder="Project Inquiry" required>
-      </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">YOUR NAME *</label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+    </div>
 
-      <div class="form-group">
-        <label for="message">MESSAGE *</label>
-        <textarea id="message" rows="6" placeholder="Tell me about your project..." required></textarea>
-      </div>
+    <div class="form-group">
+      <label for="email">YOUR EMAIL *</label>
+      <input type="email" name="email" id="email" placeholder="example@email.com" required>
+    </div>
+  </div>
 
-      <button type="submit" class="btn-primary">
-        SEND MESSAGE <span class="icon-send">➤</span>
-      </button>
-    </form>
+  <div class="form-group">
+    <label for="subject">SUBJECT *</label>
+    <input type="text" name="subject" id="subject" placeholder="Project Inquiry" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">MESSAGE *</label>
+    <textarea name="message" id="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary">
+    SEND MESSAGE <span class="icon-send">➤</span>
+  </button>
+
+</form>
 
     <div class="direct-contact">
       <p>OR REACH OUT DIRECTLY</p>
