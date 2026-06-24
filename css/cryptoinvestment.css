@@ -684,7 +684,7 @@ body {
   }
 
   .main-shot{
-    margin-top: 8rem !important;
+    margin-top: 12rem !important;
     max-width: 100% !important;
     width: 100%;
   }
@@ -692,16 +692,16 @@ body {
   .main-shot img{
     width: 100%;
     height: auto;
-    max-width: 100% !important;
+    max-width: 20rem !important;
   }
 
   .thumb-scroll{
-    width: 100%;
+    width: 20rem;
     gap: 8px;
   }
 
   .thumb{
-    width: 90px;
+    width: 50px;
     height: 65px;
     flex-shrink: 0;
   }
