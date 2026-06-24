@@ -291,7 +291,7 @@ background:#fff;
   .hero{
     position: relative;
     width: 100%;
-    height: auto !important,
+    height: 20rem !important,
     /* height: 100vh; */
     overflow: hidden;
 }
