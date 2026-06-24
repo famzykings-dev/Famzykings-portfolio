@@ -512,6 +512,14 @@ background: goldenrod !important;
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
+    .projects-section{
+    max-width:1200px;
+    margin:auto;
+    padding:0 20px;
+    padding-top: 10rem;
+    
+}
 }
 
 
