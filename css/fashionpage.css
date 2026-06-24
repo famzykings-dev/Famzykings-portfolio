@@ -254,13 +254,13 @@ background:#fff;
 /* MOBILE */
 @media(max-width:768px){
 
-  .tag{
+ .tag{
     display: block;
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     color: white !important;
     position: relative;
-    top: -20rem !important;
+    top: -13rem !important;
 
 }
 .crafted p{
@@ -269,8 +269,8 @@ background:#fff;
     text-align: center;
     display: block;
     line-height: 1.8;
-    font-size: 0.78rem;
-    top: -20rem;
+    font-size: 0.8rem;
+    top: -12rem;
 }
 
   .crafted{
