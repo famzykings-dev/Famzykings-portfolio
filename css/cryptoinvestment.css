@@ -38,12 +38,12 @@
 
 
 @media(max-width:768px){
-    .navbar-toggler{
+     .navbar-toggler{
         border: none;
         outline: none;
         box-shadow: none !important;
         z-index: 99999;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .navbar-toggler-icon{
