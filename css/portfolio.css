@@ -259,10 +259,10 @@ background:#fff;
   .tag{
     display: block;
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 3rem !important;
     color: white !important;
     position: relative;
-    top: -15rem !important;
+    top: -10rem !important;
 
 }
 .crafted p{
