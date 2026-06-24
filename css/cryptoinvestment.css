@@ -667,133 +667,64 @@ body {
 }
 
 
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
 @media (max-width: 768px) {
 
   .page-wrap{
     padding: 15px;
     margin-top: 18rem !important;
-    /* max-width: 22rem !important */
-    max-width: 100% !important;
     width: 100%;
+    max-width: 100%;
   }
 
   .project-layout{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin-left: 0;
   }
 
   .main-shot{
-    max-width: 23rem !important
-      /* max-width: 100% !important; */
     width: 100%;
-    height: 22rem;
+    max-width: 100% !important;
+    height: auto;
+    margin-top: 0 !important;
   }
 
   .main-shot img{
     width: 100%;
-    height: 22rem;
-    /* max-width: 100% !important; */
-    max-width: 22rem !important;
+    max-width: 100% !important;
+    height: auto;
+    display: block;
   }
 
   .thumb-scroll{
-    max-width: 20rem !important;
     width: 100%;
-    gap: 8px;
+    max-width: 100% !important;
+    overflow-x: auto;
   }
 
   .thumb{
-    width: 50px;
-    height: 65px;
+    width: 70px;
+    height: 55px;
     flex-shrink: 0;
   }
 
   .sidebar{
-    position: static;
-    padding-top: 0 !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
     width: 100%;
+    max-width: 100%;
+    margin-left: 0 !important;
+    padding-top: 0 !important;
   }
 
   .info-box{
     width: 100%;
-  }
-
-  .project-details h2{
-    font-size: 24px;
-  }
-
-  .project-details > p{
-    width: 100%;
-    font-size: 15px;
-  }
-
-  .features{
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-
-  .tech-pills{
-    gap: 8px;
-  }
-
-  .tech-pills span{
-    font-size: 11px;
-    padding: 6px 12px;
+    max-width: 100%;
   }
 
   .cta-button{
+    display: block;
     width: 100%;
-    max-width: 20rem !important
     text-align: center;
-  }
-
-  .project-card{
-    gap: 10px;
-  }
-}
-
-/* Extra small phones */
-@media (max-width: 480px) {
-
-  .main-shot{
-    margin-top: 6rem !important;
-  }
-
-  .project-details h2{
-    font-size: 20px;
-  }
-
-  .project-details h3{
-    font-size: 18px;
-  }
-
-  .thumb{
-    width: 80px;
-    height: 60px;
-  }
-
-  .info-box{
-    padding: 20px;
-  }
-
-      .main-shot img{
-    width: 100%;
-    height: 22rem;
-    /* max-width: 100% !important; */
-    max-width: 22rem !important;
-  }
-
-  .thumb-scroll{
-    max-width: 22rem !important;
-    width: 100%;
-    gap: 8px;
   }
 }
 
