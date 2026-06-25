@@ -1073,7 +1073,7 @@ background:#fff;
 
 .project-card img {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   object-fit: cover;
   display: block;
   height: 20rem !important;
@@ -1157,7 +1157,7 @@ background:#fff;
     gap: 16px;
   }
 
-    .project-card {
+.project-card {
   position: relative;
   border-radius: 0.1px;
   overflow: hidden;
@@ -1165,6 +1165,15 @@ background:#fff;
   background-color: #ddd;
   cursor: pointer;
   transition: transform 0.3s ease;
+  height: 20rem !important;
+}
+
+ .project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  height: 20rem !important;
 }
 }
 
