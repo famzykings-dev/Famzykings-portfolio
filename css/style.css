@@ -1177,9 +1177,9 @@ background:#fff;
   /* height: 100%; */
   object-fit: cover;
   display: block;
-  max-height: 20rem !important;
+  max-height: 25rem !important;
        /* width: 100%; */
-    width: 20rem !important;
+    width: 25rem !important;
   /* height: 100%; */
 }
 }
