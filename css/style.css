@@ -1166,9 +1166,9 @@ background:#fff;
   background-color: #ddd;
   cursor: pointer;
   transition: transform 0.3s ease;
-  height: 20rem !important;
-      /* width: 100%; */
-    width: 20rem !important;
+  height: 30rem !important;
+      width: 100%;
+    max-width: 30rem !important;
   /* height: 100%; */
 }
 
@@ -1177,9 +1177,9 @@ background:#fff;
   /* height: 100%; */
   object-fit: cover;
   display: block;
-  max-height: 25rem !important;
-       /* width: 100%; */
-    width: 25rem !important;
+  max-height: 30rem !important;
+       width: 100%;
+    max-width: 30rem !important;
   /* height: 100%; */
 }
 }
