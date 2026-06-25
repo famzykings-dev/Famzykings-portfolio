@@ -65,7 +65,6 @@ self.addEventListener("install", (event) => {
   self.skipWaiting(); // force new SW immediately
 });
 
-// ACTIVATE (🔥 THIS IS THE IMPORTANT FIX)
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
