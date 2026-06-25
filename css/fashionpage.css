@@ -665,6 +665,10 @@ body {
   border-radius: 10px;
 }
 
+.increase{
+    font-size:2rem !important;
+     color: #ff6b35 !important;
+}
 
 /* MOBILE RESPONSIVE */
 
