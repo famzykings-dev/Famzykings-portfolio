@@ -1,4 +1,4 @@
-const CACHE_NAME = "famzykings-cache-v12";
+const CACHE_NAME = "famzykings-cache-v13";
 
 const urlsToCache = [
   "/",
