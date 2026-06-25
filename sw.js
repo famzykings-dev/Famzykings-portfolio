@@ -36,8 +36,8 @@ const urlsToCache = [
   "/img/kingshair.png",
   "/img/crypto.png",
 
-  "/img/tech/github.jpg",
-  "/img/tech/bootstrap.jpg",
+  "/img/github.jpg",
+  "/img/bootstrap.jpg",
   "/img/html.jpg",
   "/img/js.jpg",
   "/img/css.jpg",
