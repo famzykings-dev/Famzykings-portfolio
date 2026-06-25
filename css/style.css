@@ -1064,7 +1064,6 @@ background:#fff;
   background-color: #ddd;
   cursor: pointer;
   transition: transform 0.3s ease;
-  height: 20rem !important;
 }
 
 .project-card:hover {
@@ -1072,12 +1071,10 @@ background:#fff;
 }
 
 .project-card img {
-  /* width: 100%; */
-    width: 20rem !important;
-  /* height: 100%; */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
-  height: 20rem !important;
 }
 
 .project-overlay {
@@ -1157,31 +1154,6 @@ background:#fff;
     grid-template-columns: 1fr;
     gap: 16px;
   }
-
-.project-card {
-  position: relative;
-  border-radius: 0.1px;
-  overflow: hidden;
-  aspect-ratio: 4/3;
-  background-color: #ddd;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  height: 30rem !important;
-      width: 100%;
-    max-width: 30rem !important;
-  /* height: 100%; */
-}
-
- .project-card img {
-  /* width: 100%; */
-  /* height: 100%; */
-  object-fit: cover;
-  display: block;
-  max-height: 30rem !important;
-       width: 100%;
-    max-width: 30rem !important;
-  /* height: 100%; */
-}
 }
 
 /* TECHNOLOGY USED */
