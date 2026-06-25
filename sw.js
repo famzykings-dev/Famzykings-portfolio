@@ -1,4 +1,4 @@
-const CACHE_NAME = "famzykings-cache-v10";
+const CACHE_NAME = "famzykings-cache-v11";
 
 const urlsToCache = [
   "/",
@@ -19,9 +19,6 @@ const urlsToCache = [
   "/css/portfolio.css",
   "/css/bootstrap.min.css",
   "/css/all.min.css",
-
-  // JS
-  "/js/bootstrap.bundle.min.js",
 
   // Main Images
   "/img/hero kings.jpg",
