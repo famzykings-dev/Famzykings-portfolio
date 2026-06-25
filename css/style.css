@@ -1072,8 +1072,9 @@ background:#fff;
 }
 
 .project-card img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+    width: 20rem !important;
+  /* height: 100%; */
   object-fit: cover;
   display: block;
   height: 20rem !important;
@@ -1166,14 +1167,20 @@ background:#fff;
   cursor: pointer;
   transition: transform 0.3s ease;
   height: 20rem !important;
+      /* width: 100%; */
+    width: 20rem !important;
+  /* height: 100%; */
 }
 
  .project-card img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   object-fit: cover;
   display: block;
   max-height: 20rem !important;
+       /* width: 100%; */
+    width: 20rem !important;
+  /* height: 100%; */
 }
 }
 
