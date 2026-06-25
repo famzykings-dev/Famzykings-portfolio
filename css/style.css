@@ -1064,6 +1064,7 @@ background:#fff;
   background-color: #ddd;
   cursor: pointer;
   transition: transform 0.3s ease;
+  height: 20rem !important;
 }
 
 .project-card:hover {
@@ -1075,6 +1076,7 @@ background:#fff;
   height: 100%;
   object-fit: cover;
   display: block;
+  height: 20rem !important;
 }
 
 .project-overlay {
