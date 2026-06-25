@@ -431,7 +431,7 @@ background:#fff;
 
 .story-image img{
     width:60%;
-    border-radius:none !important;
+    border-radius:0.1px !important;
     height: 95rem !important;
     padding-top: 55rem;
     margin-left: 17rem !important;
