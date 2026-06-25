@@ -659,7 +659,7 @@ background:#fff;
     width:100% !important;
     background: black;
     padding: 40px 25px;
-    border-radius: 20px;
+    border-radius: 0.1px;
     transition: 0.4s ease;
     position: relative;
     overflow: hidden;
@@ -822,7 +822,7 @@ background:#fff;
 .skill-card{
     background: rgba(255,255,255,0.05);
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 0.1px;
     width: 300px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     transition: 0.3s ease;
@@ -1154,6 +1154,16 @@ background:#fff;
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
+    .project-card {
+  position: relative;
+  border-radius: 0.1px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 }
 
 /* TECHNOLOGY USED */
