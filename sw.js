@@ -36,15 +36,6 @@ const urlsToCache = [
   "/img/kingshair.png",
   "/img/crypto.png",
 
-  // Tech Icons
-  "/img/tech/html5.svg",
-  "/img/tech/css3.svg",
-  "/img/tech/laravel.svg",
-  "/img/tech/mysql.svg",
-  "/img/tech/bootstrap.svg",
-  "/img/tech/php.svg",
-  "/img/tech/javascript.svg",
-
   "/img/tech/github.jpg",
   "/img/tech/bootstrap.jpg",
   "/img/html.jpg",
