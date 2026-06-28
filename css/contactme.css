@@ -464,6 +464,7 @@ h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 8px;
+  font-family:'Playfair Display',serif;
 }
 
 .subtext {
@@ -492,6 +493,7 @@ label {
   margin-bottom:1px;
   margin-top: 0 !important;
   letter-spacing: 0.5px;
+  font-family:'Playfair Display',serif;
 }
 
 input, textarea {
