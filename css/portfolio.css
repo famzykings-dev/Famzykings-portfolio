@@ -70,6 +70,8 @@ max-width:1320px;
     font-weight: 500;
     padding: 10px 15px;
     transition: color 0.3s ease;
+    font-family:'Playfair Display',serif;
+
   }
   
   .navbar-nav .nav-link:hover,
