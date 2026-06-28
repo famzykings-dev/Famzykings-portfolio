@@ -86,22 +86,15 @@
     <h2>Send a Message</h2>
     <p class="subtext">Fill out the form below and I'll get back to you within 24 hours.</p>
     
-<form action="https://formsubmit.co/famzykings@gmail.com" method="POST">
+    <form id="contactForm">
 
-    <input type="hidden" name="_captcha" value="false">
+  <div class="form-group">
+    <label for="name">YOUR NAME *</label>
+      <input type="email" name="email" id="email" placeholder="example@email.com" required>  </div>
 
-    <input type="hidden" name="_next" value="https://famzykingsportfolio.vercel.app/form-submit.html">
-
-  <div class="form-row">
-    <div class="form-group">
-      <label for="name">YOUR NAME *</label>
-      <input type="text" name="name" id="name" placeholder="Your Name" required>
-    </div>
-
-    <div class="form-group">
-      <label for="email">YOUR EMAIL *</label>
+  <div class="form-group">
+    <label for="email">YOUR EMAIL *</label>
       <input type="email" name="email" id="email" placeholder="example@email.com" required>
-    </div>
   </div>
 
   <div class="form-group">
@@ -117,7 +110,6 @@
   <button type="submit" class="btn-primary">
     SEND MESSAGE <span class="icon-send">➤</span>
   </button>
-
 </form>
 
     <div class="direct-contact">
@@ -151,9 +143,9 @@
         <div class="icon-box">📞</div>
       <div>
     <span>PHONE</span><br>
-    <a href="08109529656" class="email-link">
-        08109529656
-    </a>
+   <a href="tel:+2348109529656" class="email-link">
+    08109529656
+   </a>
     </div>
     </div>
 
@@ -327,6 +319,36 @@ if ("serviceWorker" in navigator) {
 </script>
 
 <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "j-0FzJ2q_OOFzosDX",
+});
+
+document.getElementById("contactForm").addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_hdwjb8l",
+        "template_0o633bm",
+        this
+    ).then(function(){
+
+        alert("Message sent successfully!");
+        document.getElementById("contactForm").reset();
+
+    }, function(error){
+
+        alert("Failed to send message.");
+        console.log(error);
+
+    });
+
+});
+</script>
 
   </body>
 </html>
