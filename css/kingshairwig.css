@@ -1,4 +1,48 @@
 
+/* GLOBAL SETTINGS */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff;
+color:#222;
+overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family:'Playfair Display',serif;
+font-weight:700;
+}
+
+a{
+text-decoration:none;
+transition:.4s;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+section{
+padding:100px 0;
+}
+
+.container{
+max-width:1320px;
+}
+
+
+
 #navigation{
     position: fixed;
     top: 0;
@@ -88,6 +132,7 @@
         padding: 12px 15px;
         border-radius: 10px;
         background: rgba(255,255,255,0.04);
+        font-family:'Playfair Display',serif;
     }
 
      .logo-img{
@@ -142,6 +187,7 @@ left:28%;
 top:38%;
 transform:translateY(-50%);
 z-index:5;
+font-family:'Playfair Display',serif;
 
 }
 
@@ -190,6 +236,7 @@ background:#fff;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
+    font-family:'Playfair Display',serif;
 }
 
 .crafted h1{
@@ -198,6 +245,7 @@ background:#fff;
     margin-bottom: 20rem;
     font-style: italic;
     font-weight: 1px;
+    font-family:'Playfair Display',serif;
 
 }
 
@@ -218,6 +266,7 @@ background:#fff;
     color: white !important;
     position: relative;
     top: -13rem !important;
+    font-family:'Playfair Display',serif;
 }
 .btn{
     display: inline-block;
