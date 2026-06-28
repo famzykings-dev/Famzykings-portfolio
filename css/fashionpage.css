@@ -33,16 +33,6 @@ max-width:100%;
 display:block;
 }
 
-section{
-padding:100px 0;
-}
-
-.container{
-max-width:1320px;
-}
-
-
-
 #navigation{
     position: fixed;
     top: 0;
