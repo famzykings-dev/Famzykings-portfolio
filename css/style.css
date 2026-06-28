@@ -1,3 +1,57 @@
+/* GLOBAL SETTINGS */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff;
+color:#222;
+overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family:'Playfair Display',serif;
+font-weight:700;
+}
+
+a{
+text-decoration:none;
+transition:.4s;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+section{
+padding:100px 0;
+}
+
+.container{
+max-width:1320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #navigation{
     position: fixed;
