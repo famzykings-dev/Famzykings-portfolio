@@ -138,7 +138,6 @@
 
 
 /* LEFT LABEL */
-
 .crafted{
 position:absolute;
 left:28%;
@@ -406,7 +405,7 @@ color: black !important;
 
 .projects-wrapper{
     background-color: white;
-    height:105vh !important;
+    height:auto !important;
     padding-top: 17rem;
     padding: 70 10px !important;
 }
