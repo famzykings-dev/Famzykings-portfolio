@@ -484,7 +484,7 @@ background:#fff;
 .story-image img{
     width:100%;
     border-radius:0.1px !important;
-    height: 300px !important;
+    height: auto !important;
     margin-top: 55rem;
     margin-left: 3rem !important;
     padding-bottom: 0;
