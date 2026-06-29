@@ -612,7 +612,7 @@ background:#fff;
 
 
 .service-card{
-    width: 450px;
+    width: 450px !important;
     background: black;
     padding: 40px 25px;
     border-radius: 0.1px;
