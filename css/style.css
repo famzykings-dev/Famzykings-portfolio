@@ -529,12 +529,12 @@ background:#fff;
     text-align: center;
   }
 
-  .story-image{
+  /* .story-image{
     width: 100%;
-  }
+  } */
 
 .story-image img{
-    width:100%;
+    width:90%;
     border-radius:20px;
     height: 600px !important;
     margin-top: 58rem !important;
