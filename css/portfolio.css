@@ -150,7 +150,7 @@ max-width:1320px;
 .hero{
     position: relative;
     width: 100%;
-    height: 40vh; 
+    height: 50vh; 
     overflow: hidden;
 }
 
@@ -158,7 +158,7 @@ max-width:1320px;
     position: absolute;
     inset: 0;
     width: 100%;
-    height: 30vh; 
+    height: 50vh; 
     object-fit: cover;
 }
 
