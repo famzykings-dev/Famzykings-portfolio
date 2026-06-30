@@ -141,7 +141,7 @@ display:block;
 .hero{
     position: relative;
     width: 100%;
-    height: 30vh; 
+    height: 50vh; 
     overflow: hidden;
 }
 
@@ -149,7 +149,7 @@ display:block;
     position: absolute;
     inset: 0;
     width: 100%;
-    height: 30vh; 
+    height: 50vh; 
     object-fit: cover;
 }
 
@@ -159,7 +159,7 @@ display:block;
     inset: 0;
     background: rgba(0,0,0,0.80);
     z-index: 2;
-    height: 30vh; 
+    height: 50vh; 
 }
 
 /* All Content Above Video */
@@ -346,9 +346,25 @@ background:#fff;
 .hero{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: 30vh; 
     overflow: hidden;
-    margin-top: 8rem !important;
+}
+
+.hero-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 30vh; 
+    object-fit: cover;
+}
+
+/* Dark Overlay For Better Text Visibility */
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.80);
+    z-index: 2;
+    height: 30vh; 
 }
 
 .hero-content h1{
@@ -440,7 +456,7 @@ body {
 .project-layout {
   display: grid;
   grid-template-columns: 890px 320px;
-  gap: 70px;
+  gap: 110px;
   align-items: start;
   margin-left: 20rem;
 }
@@ -448,7 +464,7 @@ body {
 .main-shot {
   border: 1px solid #e0e0e0;
   margin-bottom: 15px;
-  margin-top: 22rem !important;
+  margin-top: 35rem !important;
   max-width: 45rem !important;
 }
 
@@ -554,7 +570,7 @@ body {
 
 .sidebar {
   position: sticky;
-  padding-top: 22rem !important;
+  padding-top: 35rem !important;
   margin-left: -180px !important; 
   max-width: 45rem !important;
 
