@@ -472,7 +472,7 @@ color: black !important;
   padding: 0 0 !important;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  gap: 60px;
+  gap: 100px;
 
 }
 
