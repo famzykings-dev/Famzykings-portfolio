@@ -455,7 +455,7 @@ body {
 .project-layout {
   display: grid;
   grid-template-columns: 890px 320px;
-  gap: 100px;
+  gap: 110px;
   align-items: start;
   margin-left: 20rem;
 }
