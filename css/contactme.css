@@ -312,7 +312,7 @@ background:#fff;
     display: block;
     line-height: 1.8;
     font-size: 0.8rem;
-    top: -12rem;
+    top: -13rem;
 }
 
   .crafted{
@@ -505,7 +505,7 @@ h2 {
 label {
   display: block;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom:1px;
   margin-top: 0 !important;
   letter-spacing: 0.5px;
